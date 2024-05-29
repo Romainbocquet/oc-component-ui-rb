@@ -1,0 +1,9 @@
+{
+  "name": "oc-component-ui-rb",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "sites/*"
+    ]
+  }
+}
