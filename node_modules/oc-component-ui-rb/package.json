@@ -1,7 +1,7 @@
 {
   "name": "oc-component-ui-rb",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
@@ -10,17 +10,17 @@
   "typings": "./dist/index.d.ts",
   "module": "./dist/oc-component-ui-rb.es.js",
   "exports": {
-    "./forms" : {
+    "./forms": {
       "import": "./dist/forms/oc-component-ui-rb.es.js",
       "require": "./dist/forms/oc-component-ui-rb.cjs.js",
       "types": "./dist/forms/index.d.ts"
     },
-    "./nav" : {
+    "./nav": {
       "import": "./dist/nav/oc-component-ui-rb.es.js",
       "require": "./dist/nav/oc-component-ui-rb.cjs.js",
       "types": "./dist/nav/index.d.ts"
     },
-    "./common" : {
+    "./common": {
       "import": "./dist/common/oc-component-ui-rb.es.js",
       "require": "./dist/common/oc-component-ui-rb.cjs.js",
       "types": "./dist/common/index.d.ts"

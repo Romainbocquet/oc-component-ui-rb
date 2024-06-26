@@ -14,17 +14,24 @@ function App() {
 
   const data = [
     { name: "Alice", age: 25, email: "alice@example.com" },
-    { name: "Bob", age: 30, email: "bob@example.com" },
+    { name: "Ben", age: 30, email: "bob@example.com" },
+    { name: "Marc", age: 30, email: "bob@example.com" },
+    { name: "Jean", age: 30, email: "bob@example.com" },
+    { name: "Paul", age: 30, email: "bob@example.com" },
+    { name: "Eric", age: 30, email: "bob@example.com" },
+    { name: "Antoine", age: 30, email: "bob@example.com" },
+    { name: "Lucas", age: 30, email: "bob@example.com" },
+    { name: "Rémis", age: 30, email: "bob@example.com" },
     { name: "Charlie", age: 35, email: "charlie@example.com" }
   ];
   
   return (
     <div>
       <h1>Hello World</h1>
-      <Button onClick={() => setOpen(true)}>Open Modal</Button>
+      <Button type='submit' onClick={() => setOpen(true)}>Open Modal</Button>
       <Input />
       <Link>Patate</Link>
-      <Modal open={open} onClose={() => setOpen(false)}>
+      <Modal open={open} onClose={() => setOpen(false)} id="modal-test">
         <div>
           <div>
             <h3>Modal text</h3>

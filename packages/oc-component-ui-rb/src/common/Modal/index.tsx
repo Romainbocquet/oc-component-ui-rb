@@ -4,9 +4,10 @@ interface ModalProps {
   open: boolean;
   onClose: () => void;
   children: ReactNode;
+  id: string;
 }
 
-const Modal: React.FC<ModalProps> = ({ open, onClose, children }) => {
+const Modal: React.FC<ModalProps> = ({ open, onClose, children, id }) => {
   return (
     // backdrop
     <div
@@ -18,6 +19,7 @@ const Modal: React.FC<ModalProps> = ({ open, onClose, children }) => {
     >
       {/* modal */}
       <div
+        id={id}
         onClick={(e) => e.stopPropagation()}
         className={`
         oc-ui-bg-white oc-ui-rounded-xl oc-ui-shadow oc-ui-p-6 oc-ui-transition-all
