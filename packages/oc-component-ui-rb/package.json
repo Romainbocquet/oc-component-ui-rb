@@ -1,8 +1,10 @@
 {
   "name": "oc-component-ui-rb",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
+  "author": "Romain Bocquet <1romain.bocquet1@gmail.com>",
+  "keywords": ["react", "tailwind", "vite", "component", "array", "modal"],
   "files": [
     "dist"
   ],
